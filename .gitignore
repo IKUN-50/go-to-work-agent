@@ -1,0 +1,34 @@
+# Secrets: only blank example files belong in Git.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local environments, caches and editor settings.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.vscode/
+.idea/
+node_modules/
+.next/
+dist/
+build/
+
+# Personal conversations, profiles and generated execution records.
+memory.json
+*.log
+data/private/
+data/profile.local.json
+runtime/
+outputs/
+traces/
+.DS_Store
+Thumbs.db
