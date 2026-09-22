@@ -1,0 +1,15 @@
+{
+  "sample": true,
+  "display_name": "示例学习者（虚构）",
+  "goal": "Build an explainable junior AI Agent Engineer portfolio project.",
+  "skills": {
+    "Python": "beginner",
+    "Pydantic": "learning",
+    "Structured Output": "learning",
+    "Agent Workflow": "learning",
+    "FastAPI": "not_started",
+    "RAG": "not_started",
+    "Docker": "not_started"
+  },
+  "notice": "Synthetic learning profile. This is not a real person's identity, verified skill assessment or private resume."
+}

@@ -1,0 +1,24 @@
+{
+  "sample": true,
+  "notice": "Entirely synthetic learning fixtures. These are not real vacancies or current labor-market evidence.",
+  "items": [
+    {
+      "title": "[Synthetic] Junior AI Agent Engineer",
+      "url": "https://example.invalid/synthetic/junior-agent-engineer",
+      "snippet": "Fictional training example: develop Python agents with Pydantic structured output, LLM APIs, tool input validation and bounded retries. 初级 AI Agent 工程师 求职 岗位 示例。",
+      "source_kind": "synthetic"
+    },
+    {
+      "title": "[Synthetic] Junior LLM Application Developer",
+      "url": "https://example.invalid/synthetic/llm-application-developer",
+      "snippet": "Fictional training example: build Python LLM applications, document prompt and schema contracts, write tests and expose a future FastAPI endpoint. 初级 AI 应用 开发 求职 岗位 示例。",
+      "source_kind": "synthetic"
+    },
+    {
+      "title": "[Synthetic] AI Workflow Engineering Intern",
+      "url": "https://example.invalid/synthetic/ai-workflow-intern",
+      "snippet": "Fictional training example: implement an explainable Agent Workflow with plans, observations, logging and source attribution. Python, Git and RAG are illustrative topics, not measured market frequencies. AI Agent 实习 求职 岗位 示例。",
+      "source_kind": "synthetic"
+    }
+  ]
+}

@@ -4,8 +4,8 @@ This repository evolves the existing learning project into a small, explainable 
 
 ## Current boundary
 
-- The repository currently contains a legacy learning baseline. Phase 1 application work is pending.
-- Put the new Python application in `app/` and its tests in `tests/` when Phase 1 resumes.
+- The repository contains the Phase 1 application in `app/`, its tests in `tests/`, and preserved legacy learning examples.
+- Phase 1 collects a profile and search sources. Do not claim Phase 2 analysis or Phase 3 semantic verification is implemented.
 - Keep legacy examples in `examples/learning_agent/`. They are historical teaching code, not modules for the new runtime.
 - Do not implement the frontend, FastAPI, job analysis or a multi-agent swarm while completing Phase 1.
 
@@ -21,6 +21,8 @@ This repository evolves the existing learning project into a small, explainable 
 
 ## Tests and teaching
 
+- New application tests: run `python -m unittest discover -s tests -v` at the repository root.
+- Offline demo: `python -m app --provider fake`; failure recovery demo: add `--demo-recovery`.
 - Legacy tests: run `python -m unittest discover -s tests -v` from `examples/learning_agent/`.
 - Never import interactive legacy scripts during test discovery.
 - Distinguish offline tests, synthetic demos and real-provider verification in reports.

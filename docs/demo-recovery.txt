@@ -1,0 +1,30 @@
+Provider: fake | Search: sample | Status: completed
+OFFLINE MODEL: the plan is scripted, not a live model response.
+SYNTHETIC SOURCES: demo job samples, not current job-market evidence.
+DEMO FAULTS: one invalid model output and one tool timeout were deliberately injected.
+
+Execution trace:
+  generate_structured  failed  retry=0 0.0ms (invalid_json)
+  generate_structured  success retry=1 0.2ms
+  Planner              success retry=0 4.9ms
+  read_profile         success retry=0 0.8ms
+  search_jobs          failed  retry=0 0.0ms (SIMULATED_TIMEOUT)
+  search_jobs          success retry=1 1.9ms
+  Report               success retry=0 0.1ms
+
+Phase 1 report: 3 unique sources collected.
+Profile: sample
+Skills: Python=beginner, Pydantic=learning, Structured Output=learning, Agent Workflow=learning, FastAPI=not_started, RAG=not_started, Docker=not_started
+  [synthetic] [Synthetic] Junior AI Agent Engineer
+    https://example.invalid/synthetic/junior-agent-engineer
+  [synthetic] [Synthetic] Junior LLM Application Developer
+    https://example.invalid/synthetic/llm-application-developer
+  [synthetic] [Synthetic] AI Workflow Engineering Intern
+    https://example.invalid/synthetic/ai-workflow-intern
+
+Limitations:
+  - Phase 1 collects a profile and search sources only.
+  - No job extraction, skill ranking, gap analysis or seven-day plan yet.
+  - Search relevance, page contents and vacancy availability are not verified.
+  - Synthetic learning examples only; these are not live vacancies or evidence of current market requirements.
+  - Synthetic job samples are demo data, not current market evidence.
